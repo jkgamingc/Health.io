@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Health.io</title>
+</head>
+<body>
+
+ <nav>
+        
+<ul>
+            
+<li><a href="home.html">Home</a></li>
+           
+ <li><a href="patient-login.html">Patient Login</a></li>
+
+<li><a href="doctor-login.html">Doctor Login</a></li>
+
+        </ul>
+
+    </nav>
+
+    <header>
+        <h1>E-Wallet Linking Form</h1>
+    </header>
+
+    <form id="eWalletForm" onsubmit="submitEwalletForm(event)">
+        <label for="walletUsername">E-Wallet Username:</label>
+        <input type="text" id="walletUsername" name="walletUsername" required>
+
+        <label for="walletPassword">E-Wallet Password:</label>
+        <input type="password" id="walletPassword" name="walletPassword" required>
+
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+        <label for="securityCode">Security Code:</label>
+        <input type="text" id="securityCode" name="securityCode" required>
+
+        <input type="submit" value="Link E-Wallet">
+    </form>
+
+    <footer>
+        <p>&copy; 2023 Health Portal</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html> 

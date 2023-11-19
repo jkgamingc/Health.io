@@ -1,0 +1,135 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav {
+    background-color: #3498db;
+    padding: 10px;
+} 
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+
+header, section, footer {
+    text-align: center;
+    padding: 20px;
+}
+#patient-section, #doctor-section {
+    margin-top: 20px;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+ul li {
+    margin: 10px 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+.consultantButton {
+	background-color:skyblue;
+	padding:10px;
+	padding-left:20px;
+	padding-right:20px;
+	border-radius:100px;
+}
+
+.doctors {
+	margin-left:30px;
+	padding:30px;
+	border:2px solid skyblue;
+	margin-top:10px;
+	width:182px;
+	height:142px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #3498db;
+    color: white;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #3498db;
+    color: white;
+}
