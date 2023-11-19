@@ -3,7 +3,7 @@ new Vue({
     data: {
         patientFeatures: [
             { id: 1, name: 'Find a Specialist', link: 'find-specialist.html' },
-            { id: 2, name: 'Virtual Consultation', link: 'doctor-chat.html' },
+            { id: 2, name: 'Virtual Consultation', link: 'DoctorChat.html' },
             { id: 3, name: 'Link E-Wallet', link: 'e-wallet-form.html' },
             { id: 4, name: 'Upload Prescriptions/Reports', link: 'uploadPrescriptions.html' }
         ]
